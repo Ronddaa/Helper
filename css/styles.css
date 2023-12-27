@@ -1,0 +1,29 @@
+@import url(../css/reset.css); /* Так подключаються стили в основной документ стилей из других источников, папок */
+
+html{
+    background-color: #121212;
+    color: #fff;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 100px;
+}
+
+/* icons */
+
+.wrapperIconsReviews{
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.icons > .container > .wrapperIconsReviews> svg{
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* icons */
